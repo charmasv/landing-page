@@ -66,5 +66,43 @@
 
 .random{
     color: #1f2937;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.image-section {
+    display: flex;
+    justify-content: center;
     align-items: center;
+    margin-top: 50px; /* Adjust this to position it properly within your page */
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.item {
+    text-align: center;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #3b82f6; /* blue border */
+    border-radius: 10px;
+}
+
+.subtext {
+    font-size: 14px;
+    color: gray;
+    margin-top: 8px;
+}
+
+.quote{
+    background-color: #E5E7EB;
+    width: 600px;
+    height: 300px;
 }
