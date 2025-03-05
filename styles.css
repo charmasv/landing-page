@@ -102,7 +102,25 @@
 }
 
 .quote{
-    background-color: #E5E7EB;
-    width: 600px;
+    background-color: #ccd7ee;
+    width: 1500px;
     height: 300px;
+    align-items: center;
+    text-align: center;
+    padding: 40px;   
+
+}
+
+.thor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: right;
+}
+.calltoaction{
+    background-color: #3882F6;
+    text-align: left;
+    width: 700px;
+    margin: 0 auto;
+    padding: 50px;
 }
