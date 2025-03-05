@@ -117,10 +117,29 @@
     justify-content: center;
     text-align: right;
 }
-.calltoaction{
-    background-color: #3882F6;
-    text-align: left;
-    width: 700px;
-    margin: 0 auto;
-    padding: 50px;
+.signup{
+    background-color: #3882f6;
+    display: flex;
+    padding: 50px 100px;
+    gap: 50px;
+    margin: 100px 0;
+    border-radius: 8px;
+}
+
+.signup-title{
+    font-size: 20px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.signup-button{
+    border: 2px solid #f9faf8;
+}
+
+.copyright{
+    background-color: #1F2937;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
 }
